@@ -1,0 +1,160 @@
+#leh1 {
+    color: #F9F8F8;
+    font-size: 33px;
+    font-family: edo SZ
+}
+
+h2{
+    color: #cadeba;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    background-color: #040F16;
+    line-height: 1.4;
+    font-size: 17px;
+    margin: 0;
+
+}
+
+
+.container{
+    margin: 40px 0 0;
+}
+
+
+
+p {
+    color: #F9F8F8;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+#url {
+    text-decoration: none;
+    color: #F9F8F8;
+    font-family: edo SZ, sans-serif;
+    font-size: 30px;
+    background-color: #F39237;
+    border-radius: 12px;
+
+}
+#url:hover {
+    color: #040F16;
+    background-color: #F9F8F8;
+}
+
+
+h4 {
+    color: #F9F8F8;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 23px;
+    text-decoration: underline;
+
+}
+
+.card-grey{
+    width: 40%;
+    height: auto;
+    background: rgba(243, 223, 230, 0.12);
+    box-shadow: 0 0 50px rgba(100,100,100,0.4);
+    text-align: center;
+    margin: 35px auto;
+    padding: 1.5%;
+}
+
+.list-inline i{
+    color: #7261A3;
+}
+
+h3{
+    letter-spacing: 5px;
+}
+
+
+#networks{
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+.text-spread{
+    padding: 0 20%;
+}
+
+
+i:hover{
+    color: white;
+}
+
+#bottom-info {
+    background-color: #7261A3;
+    margin: 0;
+    width: 100%;
+    padding: 30px 0;
+    height: auto;
+}
+
+#photo{
+    border-radius: 50%;
+    width: 200px;
+    margin: auto;
+}
+
+#photo-2{
+    width: 100px;
+    float: right;
+}
+
+#head{
+    height: auto;
+}
+
+
+.list-inline{
+
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li{
+    font-size: 33px;
+    display: inline;
+    padding: 5px;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+@media (max-width: 720px) {
+    .card-grey{
+        width: 500px;
+    }
+    #photo{
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 940px) {
+    .card-grey{
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .card-grey{
+        width: 500px;
+    }
+    #photo{
+        width: 130px;
+    }
+
